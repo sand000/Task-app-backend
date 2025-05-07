@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: ["http://localhost:5173", "https://courageous-semifreddo-d856f3.netlify.app"],
-    allowedHeaders: ["Content-Type", "Authorization"],
+    // allowedHeaders: ["Content-Type", "Authorization"],
   }),
 );
 const PORT = process.env.PORT || 8080;
